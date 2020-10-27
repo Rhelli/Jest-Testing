@@ -1,28 +1,29 @@
 {
-  "name": "js-template-stylelint-eslint-webpack",
+  "name": "jest-testing",
   "version": "1.0.0",
-  "description": "vanilla js with webpack, stylelint, eslint and github actions",
+  "description": "A short project aiming at getting up to speed with Jest",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "dependencies": "npm i --save-dev clean-webpack-plugin html-webpack-plugin style-loader css-loader sass-loader sass file-loader webpack-cli",
+    "build": "webpack --mode production",
+    "dependencies": "npm i --save-dev preload-webpack-plugin@3.0.0-beta.3 clean-webpack-plugin html-webpack-plugin style-loader css-loader sass-loader sass file-loader webpack-cli",
     "apiKey": "npm i --save-dev dotenv-webpack",
-    "start": "webpack-dev-server --open",
-    "watch": "webpack --watch"
+    "start": "webpack-dev-server --mode development --open",
+    "watch": "webpack --watch",
+    "dev": "webpack --mode development"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Psiale/js-template-stylelint-eslint-webpack.git"
+    "url": "git+https://github.com/Rhelli/Jest-Testing.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Psiale/js-template-stylelint-eslint-webpack/issues"
+    "url": "https://github.com/Rhelli/Jest-Testing/issues"
   },
-  "homepage": "https://github.com/Psiale/js-template-stylelint-eslint-webpack#readme",
+  "homepage": "",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "clean-webpack-plugin": "^3.0.0",
@@ -30,8 +31,9 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "file-loader": "^6.1.1",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.0",
+    "preload-webpack-plugin": "^3.0.0-beta.3",
     "sass": "^1.27.0",
     "sass-loader": "^10.0.4",
     "style-loader": "^2.0.0",
