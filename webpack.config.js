@@ -8,7 +8,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    app: './src/scripts/index.js',
+    app: './src/index.js',
   },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
@@ -21,11 +21,9 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
   },
   plugins: [
-    // only uncomment if you run npm run apiKey
-    // new Dotenv(),
     new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
     new HTMLWebpackPlugin({
-      title: 'Weather App',
+      title: 'Jest Testing',
     }),
   ],
   module: {
