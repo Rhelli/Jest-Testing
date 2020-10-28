@@ -33,12 +33,12 @@ This is a project to be included by all students at [Microverse](https://www.mic
 
 ## 💡 The Project Specific
 Having just read about testing in Javascript in this project we learn how to implement our reading in the form of Jest testing.
-In this project we all given the objective to create five functions and create five separate test scripts for those functions, this functions include: 
+In this project we all given the objective to create five functions and create five separate test scripts for those functions, these functions include: 
  - Capitalize: Capitalises a string
  - Reverse string: Reverses a string (amazing!) 
- - Calculator: Returns and object with the basic operations add, subtract, multiply, divide
+ - Calculator: Returns an object with the basic operations add, subtract, multiply, divide
  - [Caesar-cypher](http://practicalcryptography.com/ciphers/caesar-cipher/): Takes a string and shifts letters up by the given number 
- - Array analysis: Takes an Array of numbers and returns and object with average, min, max and length.
+ - Array analysis: Takes an array of numbers and returns an object with average, min, max, and length.
 
 ## 🔬 Tools & Technology Used
 **Languages & Frameworks**
