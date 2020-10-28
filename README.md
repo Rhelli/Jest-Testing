@@ -56,7 +56,6 @@ In this project we all given the objective to create five functions and create f
 ### 💾 Setup & Use
 
 #### Setup
-For the live site, [head here.](https://mtodo-list.netlify.app/)
 
 1. To inspect and tinker with the code on your system, download this repo either [here]() or from the link at the top of the page
 
